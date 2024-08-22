@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary:hsla(40, 100%, 68%, 1);
+    --secondary: hsla(207, 100%, 39%, 1);
+}

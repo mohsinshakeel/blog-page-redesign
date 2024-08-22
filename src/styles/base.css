@@ -1,0 +1,69 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+
+textarea::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.prompt-bg {
+  background-color: #181819;
+}
+
+.gradient {
+  background: linear-gradient(180deg, black 0%, #121317 100%);
+}
+
+.splash-gradient {
+  background: linear-gradient(
+    29.98deg,
+    #6200ee -7.32%,
+    #9f3ac9 50.18%,
+    #f98f93 136.43%
+  );
+}
+
+.gradient-text {
+  font-size: 3rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    112.71deg,
+    #6200ee -43.98%,
+    #9f3ac9 14.19%,
+    #f98f93 101.45%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.gradient-text-sm {
+  background-image: linear-gradient(
+    112.71deg,
+    #6200ee -43.98%,
+    #9f3ac9 14.19%,
+    #f98f93 101.45%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+}
+
+/* styles.css */
+
+@keyframes gradient {
+  to {
+    background-position: -200% 100%;
+  }
+}
+
